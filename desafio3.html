@@ -10,6 +10,10 @@
         .bandera {
             display: inline-block;
             margin-right: 50px;
+            border: rgb(240, 239, 239);
+            border-width: 1px;
+            border-style: solid;
+
         }
 
         .espana-roja {
@@ -50,7 +54,60 @@
             margin-top: -150px;
             margin-left: 60px;
         }
+
+        .EA-roja {
+            background-color: red;
+            width: 50px;
+            height: 150px;
+            z-index: 1;
+            position: absolute;
+            margin-top: -150px;
+        }
+
+        .EA-verde {
+            background-color: green;
+            width: 250px;
+            height: 50px;
+            position: relative;
+            z-index: -1;
+        }
+
+        .EA-blanca {
+            background-color: white;
+            width: 250px;
+            height: 50px;
+            position: relative;
+            z-index: -1;
+        }
+
+        .EA-negra {
+            background-color: black;
+            width: 250px;
+            height: 50px;
+            position: relative;
+            z-index: -1;
+        }
+        .japon-blanca {
+            background-color: rgb(255, 255, 255);
+            width: 250px;
+            height: 150px;
+            position: relative;
+        }
+
+        .japon-roja {
+            background-color: red;
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            border-radius: 360px;
+            margin-top: -105px;
+            margin-left: 95px;
+        }
+
+
     </style>
+
+
 </head>
 
 <body>
@@ -63,8 +120,16 @@
         <div class="dinamarca-blanca-horizontal"></div>
         <div class="dinamarca-blanca-vertical"></div>
     </div>
-    <div class="bandera"></div>
-    <div class="bandera"></div>
+    <div class="bandera">
+        <div class="EA-verde"></div>
+        <div class="EA-blanca"></div>
+        <div class="EA-negra"></div>
+        <div class="EA-roja"></div>
+    </div>
+    <div class="bandera">
+        <div class="japon-blanca"></div>
+        <div class="japon-roja"></div>
+    </div>
 </body>
 
 </html>
